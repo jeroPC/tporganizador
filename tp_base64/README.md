@@ -70,17 +70,3 @@ El algoritmo convierte grupos de 3 bytes (24 bits) en 4 caracteres imprimibles (
 ./verificar.sh
 
 
-
-Características Técnicas:
-Assembly x86_64 con convenciones de llamada correctas
-Manejo de memoria dinámica en C
-Algoritmo Base64 estándar verificado contra base64 de Linux
-Manejo de casos edge: archivos no divisibles por 3
-Padding correcto: = para 1 byte faltante, == para 2 bytes
-
-El proyecto cumple con todos los requisitos para la nota máxima:
-
-✅ Funcionalidad mínima (189 bytes) → Nota 4
-✅ Tamaño arbitrario + padding correcto → Nota superior
-✅ Código limpio y bien documentado → Bonus
-El archivo tp_base64_entrega.tar.gz está listo para subir al 
