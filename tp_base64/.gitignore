@@ -1,0 +1,21 @@
+# Ejecutables
+tp_base64
+*.o
+*.exe
+
+# Archivos temporales
+outputTexto.txt
+test_*.bin
+salida_*.txt
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Directorios temporales
+test_entrega/
+tp_base64_entrega/
+
+# Archivos comprimidos de entrega
+*.tar.gz
+*.zip
